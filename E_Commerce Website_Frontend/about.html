@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products-Fly Buy</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+  <div class="container">
+     <div class= "navbar">
+        <div class="logo">
+        <img src="images/logo.jpg" width="110px"> 
+        
+        </div>
+       <nav>
+            <ul id="MenuItems">
+               <li><a href="index1.html">Home</a></li>
+               <li><a href="products.html">Products</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="account1.html">Account</a></li>
+            
+            </ul>
+        </nav>
+        <a href="cart.html"><img src= "images/cart.jpg" width="30px" height="30px"></a>
+        <img src= "images/menu.jpg"width="35px" height="35px" class="menu-icon" 
+        onclick="menutoggle()">
+      
+       </div>
+    
+    </div>
+<!---------------About page-------------> 
+    <div class="about-page">
+   <div class="container">
+       <div class="row">
+           <div class="col-2">
+        <img src="images/about.jpg" width="80%">
+         </div>
+           
+       
+      <div class="col-2">
+        
+        
+      <h1>About Our Shop</h1>
+      <p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine, which displays the same product's availability and pricing at different e-retailers. As of 2020, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.<br>An online shop evokes the physical analogy of buying products or services at a regular "bricks-and-mortar" retailer or shopping center; the process is called business-to-consumer (B2C) online shopping. When an online store is set up to enable businesses to buy from another businesses, the process is called business-to-business (B2B) online shopping. A typical online store enables the customer to browse the firm's range of products and services, view photos or images of the products, along with information about the product specifications, features and prices.</p><br><br>
+            
+            
+    
+    </div>
+    </div>
+      
+    
+    
+    
+    
+    
+    
+
+<!---------------footer------------->
+    <div class="footer">
+    <div class="container">
+      <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios Mobile phone.</p>
+              <div class="app-logo">
+              <img src="images/ps.png">
+              <img src="images/as.png">
+              </div>
+          </div>
+           <div class="footer-col-2">
+            <img src="images/logo.jpg" width="60px" height="40px">
+            <p> Our purpose is to sustainably Make the Pleasure and<br> Benefits of Sports Accessible to the Many.</p>
+          </div>
+           <div class="footer-col-3">
+            <h3>Useful Links</h3>
+               <ul>
+               <li>Coupons</li>
+               <li>Blog Post</li>
+               <li>Return Policy</li>
+               <li>Join Affliate</li>
+               </ul>
+          </div>
+           <div class="footer-col-4">
+            <h3>Follow us</h3>
+               <ul>
+               <li>Facebook</li>
+               <li>Twitter</li>
+               <li>Instagram</li>
+               <li>Youtube</li>
+               </ul>
+          </div>
+        
+      </div>
+        
+    <hr>
+        <p class="copyright">Copyright 2020</p>
+        
+    </div>
+    </div>
+<!----------js for toggle menu------------->
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+     MenuItems.style.maxHeight = "0px";
+     
+     function menutoggle()
+     {
+       if(MenuItems.style.maxHeight == "0px") 
+           {
+               MenuItems.style.maxHeight = "200px";
+           }
+        else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+         
+         
+     }
+    
+    
+</script> 
+    
+
+    
+    
+    
+  
+    
+</body>
+</html>
+    
